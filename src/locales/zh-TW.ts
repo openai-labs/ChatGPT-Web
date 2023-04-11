@@ -1,3 +1,13 @@
+/*
+ * @Author: Vincent Young
+ * @Date: 2023-04-11 19:37:51
+ * @LastEditors: Vincent Young
+ * @LastEditTime: 2023-04-11 19:53:07
+ * @FilePath: /chatgpt-fe/src/locales/zh-TW.ts
+ * @Telegram: https://t.me/missuo
+ *
+ * Copyright © 2023 by Vincent, All Rights Reserved.
+ */
 export default {
   common: {
     add: '新增',
@@ -25,7 +35,7 @@ export default {
     success: '操作成功',
     failed: '操作失敗',
     verify: '驗證',
-    unauthorizedTips: '未經授權，請先進行驗證。',
+    unauthorizedTips: '請輸入OpenAI API Key',
   },
   chat: {
     newChatButton: '新建對話',

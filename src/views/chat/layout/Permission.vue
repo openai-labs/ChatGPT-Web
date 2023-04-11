@@ -1,3 +1,13 @@
+<!--
+ * @Author: Vincent Young
+ * @Date: 2023-04-11 19:37:51
+ * @LastEditors: Vincent Young
+ * @LastEditTime: 2023-04-11 19:54:18
+ * @FilePath: /chatgpt-fe/src/views/chat/layout/Permission.vue
+ * @Telegram: https://t.me/missuo
+ *
+ * Copyright © 2023 by Vincent, All Rights Reserved.
+-->
 <script setup lang='ts'>
 import { computed, ref } from 'vue'
 import { NButton, NInput, NModal, useMessage } from 'naive-ui'
@@ -64,7 +74,7 @@ function handlePress(event: KeyboardEvent) {
           </p>
           <Icon403 class="w-[200px] m-auto" />
         </header>
-        <NInput v-model:value="token" type="password" placeholder="" @keypress="handlePress" />
+        <NInput v-model:value="token" type="text" placeholder="sk-xxxxxxxxxxxxx" @keypress="handlePress" />
         <NButton
           block
           type="primary"

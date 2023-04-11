@@ -1,3 +1,13 @@
+/*
+ * @Author: Vincent Young
+ * @Date: 2023-04-11 19:37:51
+ * @LastEditors: Vincent Young
+ * @LastEditTime: 2023-04-11 19:53:45
+ * @FilePath: /chatgpt-fe/src/locales/en-US.ts
+ * @Telegram: https://t.me/missuo
+ *
+ * Copyright © 2023 by Vincent, All Rights Reserved.
+ */
 export default {
   common: {
     add: 'Add',
@@ -25,7 +35,7 @@ export default {
     success: 'Success',
     failed: 'Failed',
     verify: 'Verify',
-    unauthorizedTips: 'Unauthorized, please verify first.',
+    unauthorizedTips: 'Please enter the OpenAI API Key',
   },
   chat: {
     newChatButton: 'New Chat',
